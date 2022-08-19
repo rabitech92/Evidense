@@ -4,7 +4,7 @@ package com.java.core51.test;
 import java.util.Scanner;
 
 
-public class SumIntoZero {
+public class NumberIntoZero {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int sum=0;
