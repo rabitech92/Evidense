@@ -19,9 +19,9 @@ Scanner prime =new     Scanner(System.in);
         }
         for (int i = 2; i <= x; i++) {
             if (x==i) {
-                System.out.println("Prime");
+                System.out.println(x+"Is Prime Number");
             }else if(x%i==0 ){
-                System.out.print("Is not Prime" );
+                System.out.print(X+"Is not Prime" );
                 break;
             }
             }
