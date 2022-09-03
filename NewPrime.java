@@ -11,17 +11,17 @@ public class NewPrime {
        
 Scanner prime =new     Scanner(System.in);
 
-        System.out.print("Enter any Number : ");
+        System.out.print("Enter an integer Number : ");
        int x=prime.nextInt();
        
         if(x<2){
-            System.out.print("Is not prime Number");
+            System.out.print(" Is not prime Number");
         }
         for (int i = 2; i <= x; i++) {
             if (x==i) {
-                System.out.println(x+"Is Prime Number");
+                System.out.println(x+": Is Prime Number");
             }else if(x%i==0 ){
-                System.out.print(X+"Is not Prime" );
+                System.out.print(x+": Is not Prime" );
                 break;
             }
             }
